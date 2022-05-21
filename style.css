@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://media.istockphoto.com/photos/blue-sky-and-whit-cloud-on-daytime-summer-picture-id1144166650?k=20&m=1144166650&s=612x612&w=0&h=CRD_HrNLRPSBoV1Ogj4t9YJA5IXA3lWEUYH_7vzfDLE=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: #000; */
+}
+.card{
+  border: 2px solid #fff;
+  width: 380px;
+  height: 330px;
+  transition: all 0.5s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+}
+.card:hover{
+  height: 350px;
+}
+.imgBx{
+  display: flex;
+  justify-content: center;
+}
+.card img{
+  position: relative;
+  top: -60px;
+  border-radius: 6px;
+  width: 300px;
+  height: 300px;
+  transition: all 0.5s;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+}
+.card img:hover{
+  border-radius: 50%;
+  width:250px;
+  height:250px;
+  border: 6px solid red;
+}
